@@ -7,6 +7,9 @@ using System.Web;
 
 namespace EFCodeFirst.DAL
 {
+    //Reference: https://dotblogs.com.tw/supershowwei/2016/04/11/000015
+
+
     public class EFCodeFirstContext : DbContext
     {
         public EFCodeFirstContext() : base("EFCodeFirstContext")
