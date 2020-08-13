@@ -18,11 +18,11 @@ namespace EFCodeFirst.Models
         public string No { get; set; }
         [Required]
         public int Creater { get; set; }
-        [DataType(DataType.DateTime), Required]
+        [DataType(DataType.DateTime)]
         public DateTime CreatDate { get; set; }
         [Required]
         public int LastEditor { get; set; }
-        [DataType(DataType.DateTime), Required]
+        [DataType(DataType.DateTime)]
         public DateTime LastUpdate { get; set; }
     }
 }
