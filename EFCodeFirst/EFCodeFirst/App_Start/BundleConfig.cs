@@ -20,7 +20,17 @@ namespace EFCodeFirst
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
+                      "~/Scripts/umd/popper.js",
                       "~/Scripts/bootstrap.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/vue").Include(
+                        "~/Scripts/vue.js"
+            ));
+
+            bundles.Add(new ScriptBundle("~/bundles/tsTool").Include(
+                        "~/Scripts/moment.min.js",
+                        "~/Scripts/tsUtils/tool.js"
+            ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
