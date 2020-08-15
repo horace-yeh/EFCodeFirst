@@ -3,9 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System.Web;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace EFCodeFirst.DAL
+namespace EFCodeFirst.Repository.DAL
 {
     //Reference: https://dotblogs.com.tw/supershowwei/2016/04/11/000015
 

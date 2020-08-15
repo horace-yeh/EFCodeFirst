@@ -1,4 +1,4 @@
-﻿namespace EFCodeFirst.Migrations
+﻿namespace EFCodeFirst.Repository.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;

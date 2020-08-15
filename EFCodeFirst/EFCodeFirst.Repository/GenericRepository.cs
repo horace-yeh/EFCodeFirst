@@ -1,4 +1,4 @@
-﻿using EFCodeFirst.DAL;
+﻿using EFCodeFirst.Repository.DAL;
 using EFCodeFirst.Repository.Interface;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,8 @@ using System.Data.Entity;
 using System.Data.Entity.Core.Objects;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Web;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace EFCodeFirst.Repository
 {
@@ -18,7 +19,7 @@ namespace EFCodeFirst.Repository
             set;
         }
 
-        public GenericRepository() : this (new EFCodeFirstContext())
+        public GenericRepository() : this(new EFCodeFirstContext())
         {
         }
 
